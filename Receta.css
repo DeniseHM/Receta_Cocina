@@ -1,34 +1,62 @@
-body {
-    font-family: 'Montez', cursive;
+* {
+  box-sizing: border-box;
 }
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}  
+
+body {
+  font-family: "Montez", cursive;
+  background-image: url("Fondo.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: rgb(241, 230, 225);
+  padding: 20px, 50px;
+  margin: 30px;
+  border-radius: 40px;
+  min-width: 400px;
+  flex-wrap: wrap;
+}
+
 h1 {
+  margin: 0;
   text-align: center;
   text-transform: uppercase;
   color: black;
-  font-size: 50px;
-  line-height: 0%;
-  
+  font-size: 40px;
 }
 
-ul, ol {
-    font-size: 20px;
+ul,
+ol {
+  font-size: 20px;
 }
 
 .comensales {
-    text-align: center;
-    color: black;
-    font-style: oblique;
-    font-size: 20px;
+  text-align: center;
+  color: black;
+  font-style: oblique;
+  font-size: 20px;
 }
 
 .ingredientes {
-    text-align: center;
-    text-transform: uppercase;
-    color: black;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
 }
 
 .preparacion {
-    text-align: center;
-    text-transform: uppercase;
-    color: black;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
 }
